@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.box {
+    padding: 70px; 
+    border-radius: 15px;
+    color: black;
+    margin-bottom: -50px;
+    border: 5px solid #78E7FF;
+    width: 100%; 
+    max-width: 700px;
+     
+}
+
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #78E7FF;
+}
+
+.inputUser.largeInput {
+    width: 315px;
+    height: 40px;
+}
+
+.btn {
+    background: #FFEE96;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #49D2F0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    transition: .5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #FFEE96;
+    color: #07a6ca;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #49D2F0,
+                0 0 20px #49D2F0,
+                0 0 40px #49D2F0,
+                0 0 70px #49D2F0;
+    
+}
+.logocadastro {
+   display: flex;
+    width: 350px;
+    height: 350px;
+   margin-top: -550px;
+
+}
+
+.legenda {
+    background-color: #FFEE96;
+    border-radius: 40%;
+    height: 25px;
+    width: auto;
+    padding: 5px 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pet-color {
+    color: #BEB700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bom-color {
+    color: #78E7FF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.clique {
+    text-decoration: none;
+    color: #78E7FF;
+}
+
+.clique:hover {
+    color: #007BFF;
+    transition: 0.5s;
+}
+
+.ossinhos {
+    position: absolute;
+    width: 337px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 77.6%; /* Posiciona a imagem ao lado direito do conteúdo */
+    z-index: 0; /* Coloca a imagem de fundo atrás de tudo */
+    overflow: hidden;
+}
+
+.ossinhos img {
+    width: 710px;
+    height: 750px;
+    transform: translateX(-53%); /* Move a imagem para a esquerda */
+}
+
+.ossinhos2 {
+    position: absolute;
+    width: 700px;
+    top: 0;
+    right: 72px;
+    bottom: 0;
+    left: 0; /* Posiciona a imagem ao lado direito do conteúdo */
+    z-index: 0; /* Coloca a imagem de fundo atrás de tudo */
+}
+
+.ossinhos2 img {
+    width: 700px;
+    height: 699px;
+    transform: translateX(-53%); /* Move a imagem para a esquerda */
+}

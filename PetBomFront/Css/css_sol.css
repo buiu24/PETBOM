@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_amarela {
+    background-color: #ffeb3b;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.imagem_logo img {
+    max-width: 150px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.textos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.imagem_cuidados {
+    flex: 1;
+    padding: 10px;
+}
+
+.imagem_cuidados img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.texto_dicas {
+    flex: 2;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 1.4em; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+strong {
+    display: block;
+    margin-bottom: 10px;
+}
